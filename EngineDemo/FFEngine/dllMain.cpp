@@ -7,7 +7,7 @@ namespace FFEngine
 {
 	DLL_MAIN void Run()
 	{
-		
+		FFEngine::Engine::GetInstance().Run();
 	}
 
 	DLL_MAIN void EngineInit()

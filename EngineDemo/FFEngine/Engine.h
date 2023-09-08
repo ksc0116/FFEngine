@@ -12,8 +12,6 @@ namespace FFEngine
 		void Init();
 		void Run();
 
-
-
 	private:
 		std::unique_ptr<Core> core;
 		std::unique_ptr<WindowSystem> windowSystem;
