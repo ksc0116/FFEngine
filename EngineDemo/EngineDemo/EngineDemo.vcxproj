@@ -72,7 +72,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ExternalIncludePath>$(SolutionDir)FFEngine\;$(ExternalIncludePath)</ExternalIncludePath>
-    <LibraryPath>$(SolutionDir)x64\Debug\;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)Output\Lib\Engine\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

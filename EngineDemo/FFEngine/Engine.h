@@ -2,6 +2,7 @@
 #include "Utils.h"
 #include "Core.h"
 #include "WindowSystem.h"
+#include "GraphicsDLL.h"
 #include <memory>
 
 namespace FFEngine
@@ -15,6 +16,7 @@ namespace FFEngine
 	private:
 		std::unique_ptr<Core> core;
 		std::unique_ptr<WindowSystem> windowSystem;
+
 	};
 }
 

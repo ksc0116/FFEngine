@@ -10,6 +10,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EngineDemo", "EngineDemo\En
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FFEngine", "FFEngine\FFEngine.vcxproj", "{FA3F3986-DF3A-4032-9DB0-42C457653822}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FFGraphicsEnigne", "FFGraphicsEnigne\FFGraphicsEnigne.vcxproj", "{9BFD9434-F850-4EB5-95D3-588BAED2E777}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -34,6 +36,14 @@ Global
 		{FA3F3986-DF3A-4032-9DB0-42C457653822}.Release|x64.Build.0 = Release|x64
 		{FA3F3986-DF3A-4032-9DB0-42C457653822}.Release|x86.ActiveCfg = Release|Win32
 		{FA3F3986-DF3A-4032-9DB0-42C457653822}.Release|x86.Build.0 = Release|Win32
+		{9BFD9434-F850-4EB5-95D3-588BAED2E777}.Debug|x64.ActiveCfg = Debug|x64
+		{9BFD9434-F850-4EB5-95D3-588BAED2E777}.Debug|x64.Build.0 = Debug|x64
+		{9BFD9434-F850-4EB5-95D3-588BAED2E777}.Debug|x86.ActiveCfg = Debug|Win32
+		{9BFD9434-F850-4EB5-95D3-588BAED2E777}.Debug|x86.Build.0 = Debug|Win32
+		{9BFD9434-F850-4EB5-95D3-588BAED2E777}.Release|x64.ActiveCfg = Release|x64
+		{9BFD9434-F850-4EB5-95D3-588BAED2E777}.Release|x64.Build.0 = Release|x64
+		{9BFD9434-F850-4EB5-95D3-588BAED2E777}.Release|x86.ActiveCfg = Release|Win32
+		{9BFD9434-F850-4EB5-95D3-588BAED2E777}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

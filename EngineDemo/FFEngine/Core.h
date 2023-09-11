@@ -8,6 +8,7 @@ namespace FFEngine
 	public:
 		Core();
 		~Core();
+
 		void Init();
 		void Run();
 		void Progress();
