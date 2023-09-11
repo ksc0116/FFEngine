@@ -1,9 +1,9 @@
 #pragma once
 #include "Utils.h"
 #include "Core.h"
-#include "WindowSystem.h"
-#include "GraphicsDLL.h"
 #include <memory>
+
+class IGraphics;
 
 namespace FFEngine
 {
@@ -15,8 +15,7 @@ namespace FFEngine
 
 	private:
 		std::unique_ptr<Core> core;
-		std::unique_ptr<WindowSystem> windowSystem;
-
+		IGraphics* graphics;
 	};
 }
 

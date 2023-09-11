@@ -22,11 +22,11 @@
     <Filter Include="01. Systems">
       <UniqueIdentifier>{16d08725-165e-4c46-80dd-56cfed62cd7d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="01. Systems\WIndowSystem">
-      <UniqueIdentifier>{fc472e5c-b048-467b-a3ec-701785d6ee60}</UniqueIdentifier>
-    </Filter>
     <Filter Include="FFEngine">
       <UniqueIdentifier>{53889c49-e7bb-474a-b70b-f59d43ee54b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL_Define">
+      <UniqueIdentifier>{27af6c0f-5aa5-4510-92a5-cfa2eb073442}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -48,14 +48,14 @@
     <ClInclude Include="Core.h">
       <Filter>00. Core</Filter>
     </ClInclude>
-    <ClInclude Include="WindowSystem.h">
-      <Filter>01. Systems\WIndowSystem</Filter>
-    </ClInclude>
     <ClInclude Include="Engine.h">
       <Filter>FFEngine</Filter>
     </ClInclude>
     <ClInclude Include="Utils.h">
       <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsDLLDefine.h">
+      <Filter>DLL_Define</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -67,9 +67,6 @@
     </ClCompile>
     <ClCompile Include="Core.cpp">
       <Filter>00. Core</Filter>
-    </ClCompile>
-    <ClCompile Include="WindowSystem.cpp">
-      <Filter>01. Systems\WIndowSystem</Filter>
     </ClCompile>
     <ClCompile Include="Engine.cpp">
       <Filter>FFEngine</Filter>

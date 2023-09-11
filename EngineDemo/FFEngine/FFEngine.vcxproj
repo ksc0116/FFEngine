@@ -139,17 +139,16 @@
     <ClInclude Include="Engine.h" />
     <ClInclude Include="FFEngine.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="GraphicsDLLDefine.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Utils.h" />
-    <ClInclude Include="WindowSystem.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Core.cpp" />
     <ClCompile Include="dllMain.cpp" />
     <ClCompile Include="Engine.cpp" />
     <ClCompile Include="FFEngine.cpp" />
-    <ClCompile Include="WindowSystem.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="FFEngine.rc" />

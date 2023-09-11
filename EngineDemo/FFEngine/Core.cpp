@@ -1,5 +1,6 @@
 #include "Core.h"
 #include "Resource.h"
+#include "IGraphics.h"
 
 namespace FFEngine
 {
@@ -10,7 +11,8 @@ namespace FFEngine
 		m_height{0.f},
 		m_isWindowed{true},
 		m_hInstance{},
-		m_hAccelTable{}
+		m_hAccelTable{},
+		graphics{nullptr}
 	{
 
 	}
@@ -20,8 +22,30 @@ namespace FFEngine
 
 	}
 
-	void Core::Init()
+	HWND Core::GetHWND()
 	{
+		return m_hWnd;
+	}
+
+	float Core::GetWidth()
+	{
+		return m_width;
+	}
+
+	float Core::GetHeight()
+	{
+		return m_height;
+	}
+
+	bool Core::GetWindowed()
+	{
+		return m_isWindowed;
+	}
+
+	void Core::Init(IGraphics* graphics)
+	{
+		this->graphics = graphics;
+
 		m_width = 1920;
 		m_height = 1080;
 
@@ -84,6 +108,7 @@ namespace FFEngine
 		// Update
 
 		// Render
+		graphics->RenderBegin();
 
 	}
 

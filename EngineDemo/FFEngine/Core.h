@@ -1,6 +1,9 @@
 #pragma once
 #include <Windows.h>
 
+class IGraphics;
+
+
 namespace FFEngine
 {
 	class Core
@@ -9,7 +12,14 @@ namespace FFEngine
 		Core();
 		~Core();
 
-		void Init();
+	public:
+		HWND GetHWND();
+		float GetWidth();
+		float GetHeight();
+		bool GetWindowed();
+
+	public:
+		void Init(IGraphics* graphics);
 		void Run();
 		void Progress();
 
@@ -22,6 +32,10 @@ namespace FFEngine
 		bool m_isWindowed;
 		HINSTANCE m_hInstance;
 		HACCEL m_hAccelTable;
+
+	private:
+		// 참조 관련 변수
+		IGraphics* graphics;
 
 	};
 

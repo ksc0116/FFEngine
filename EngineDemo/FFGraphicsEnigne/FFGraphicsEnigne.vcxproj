@@ -132,6 +132,7 @@
   <ItemGroup>
     <ClInclude Include="FFGraphicsEngine.h" />
     <ClInclude Include="GraphicsDLL.h" />
+    <ClInclude Include="IGraphics.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FFGraphicsEngine.cpp" />

@@ -6,11 +6,13 @@
 #define GRAPHICSDLL_MAIN __declspec(dllimport)
 #endif
 
+#include "IGraphics.h"
+
 class FFGraphicsEngine;
 
 namespace FFGraphics
 {
-	GRAPHICSDLL_MAIN FFGraphicsEngine* GetFFGraphics();
+	GRAPHICSDLL_MAIN IGraphics* GetFFGraphics();
 	FFGraphicsEngine* CreateFFGraphics();
 }
 

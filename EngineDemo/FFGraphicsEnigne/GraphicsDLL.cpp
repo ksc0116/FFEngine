@@ -4,8 +4,7 @@
 
 namespace FFGraphics
 {
-
-	GRAPHICSDLL_MAIN FFGraphicsEngine* GetFFGraphics()
+	GRAPHICSDLL_MAIN IGraphics* GetFFGraphics()
 	{
 		return FFGraphics::CreateFFGraphics();
 	}
